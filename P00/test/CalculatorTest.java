@@ -11,7 +11,7 @@ import org.junit.Test;
  * I will not copy or allow others to copy my code.
  * I understand that copying code is considered as plagiarism.
  *
- * USER, 26 May 2022 11:07:06 am
+ * USER, 26 May 2022 2:51:32 pm
  */
 
 /**
@@ -99,7 +99,7 @@ public class CalculatorTest {
 		int b = 4321;
 		
 			Calculator cal = new Calculator();
-			int actual = cal.subtract(a, b);
+			int actual = cal.substract(a, b);
 			
 			int expected = 5555;
 			assertEquals (actual,expected);
@@ -112,7 +112,7 @@ public class CalculatorTest {
 		int b = 4321;
 		
 			Calculator cal = new Calculator();
-			int actual = cal.subtract(a, b);
+			int actual = cal.substract(a, b);
 			
 			int expected = 5555;
 			assertTrue((a >= 0 && a <= 9999) && (b >= 0 && b <= 9999));
@@ -125,7 +125,7 @@ public class CalculatorTest {
 		int b = 0;
 		
 			Calculator cal = new Calculator();
-			int actual = cal.subtract(a, b);
+			int actual = cal.substract(a, b);
 			
 			int expected = -1000;
 			assertEquals (expected,actual);	
@@ -208,3 +208,5 @@ public class CalculatorTest {
 			assertEquals (expected,actual);	
 	}
 }
+
+
